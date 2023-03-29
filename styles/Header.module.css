@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    width: 998px;
+    justify-content: space-around;
+}
+.header {
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlist {
+    display: flex;
+    column-gap: 2rem;
+    margin: 0;
+}
+.logo {
+    font-weight: 600;
+}
+
