@@ -1,24 +1,30 @@
 import Image from 'next/image';
 import profileImage from '../../images/testimonial1.png';
 import styles from '@/styles/Card.module.css';
+import { useState } from 'react';
 
 const CardUI = (props: any) => {
-
+    const [display, setDisplay] = useState(true)
     return (
         <div className={styles.mainContainer}>
-                <div className={styles.projectContainer}>
+                <div className={styles.imageContainer}>
+                    {display? <button className={`${styles.button50}`}>Github</button>: null}
                     <Image 
                     alt = "project displat"
                     src={profileImage}
-                    width= {300}
-                    height={100}
+                    width ={400}
+                    height={200}
                     className={styles.image}
                     />
-                    <p>{props.title}</p>
+                </div>
+                <div className={styles.projInfo}>
+                    <p className={styles.title}>{props.title}</p>
                     <p>{props.details}</p>
+                    <div className={styles.techs}>
                     {props.tech.map((el:any) => (
-                        <span>{el}</span>
+                        <span className={styles.button60}>{el}</span>
                     ))}
+                    </div>
                 </div>
         </div>
     )

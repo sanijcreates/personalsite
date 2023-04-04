@@ -9,18 +9,20 @@ export default function Projects() {
                 <CardUI 
                 title = "Imagezon"
                 details = "A project that I did to learn the basics of a e-commerce website"
-                tech = {["React", "Next.js"]}
+                tech = {["React", "Next.js", "AWS"]}
                 />
                 <CardUI 
                 title = "Imagezon"
                 details = "A project that I did to learn the basics of a e-commerce website"
-                tech = {["React", "Next.js"]}
+                tech = {["React", "Next.js", "Typescript"]}
                 />
-                <CardUI 
+                <div className = {styles.lastCard}>
+                <CardUI
                 title = "Imagezon"
                 details = "A project that I did to learn the basics of a e-commerce website"
-                tech = {["React", "Next.js"]}
+                tech = {["React", "Next.js", "CSS","HTML"]}        
                 />
+                </div>
             </div>
         </div>
     )

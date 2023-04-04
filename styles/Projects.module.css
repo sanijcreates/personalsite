@@ -13,8 +13,11 @@
 }
 .cardContainer {
     display: flex;
-    /* width: 998px; */
-    justify-content: center;
+    width: 998px;
+    justify-content: space-around;
     flex-wrap:wrap;
     align-items: center;
+}
+.lastCard {
+    margin-top: 4rem;
 }
