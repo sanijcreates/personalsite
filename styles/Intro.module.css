@@ -9,3 +9,18 @@
 .mainIntro {
     width: 50%;
 }
+.image {
+    border-radius: 100px;
+    border: 4px solid gray;
+}
+.sideIntro {
+    text-align: left;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.icon {
+    padding-right: 4px;
+}

@@ -1,0 +1,20 @@
+.title {
+    font-size: var(--big-font-size);
+    border-bottom: 2px solid gray;
+}
+
+.masterContainer {
+    display: flex; 
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+.cardContainer {
+    display: flex;
+    /* width: 998px; */
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+}
