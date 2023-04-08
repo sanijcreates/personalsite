@@ -27,6 +27,9 @@
   --tiny-font-size: 0.625rem;
 }
 /*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+}
 ul {
   list-style: none;
 }

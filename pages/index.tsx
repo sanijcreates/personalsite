@@ -4,6 +4,9 @@ import styles from '@/styles/Home.module.css'
 import Header from './header'
 import Intro from './intro'
 import Projects from './projects'
+import Edu from './edu'
+import Education from './education'
+
 export default function Home() {
   return (
     <>
@@ -18,6 +21,7 @@ export default function Home() {
         <Header />
         <Intro />
         <Projects />
+        <Education />
       </main>
     </>
   )
