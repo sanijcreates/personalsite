@@ -9,12 +9,16 @@
     justify-content: center;
     
   }
+  .upperdiv{
+    margin-top: 10em;
+    text-align: center; 
+  }
   .contentTitle {
     font-size: xx-large;
     font-weight: bolder;
-    /* border-bottom: 2px solid black; */
-    text-align: center; 
-  
+    /* border-bottom: none; */
+    display: inline;
+    border-bottom: 3px solid #dbdbdb;
 }
   /* The actual timeline (the vertical ruler) */
   .timeline::after {
@@ -104,16 +108,17 @@
     0 0 25px -15px rgba(0,0,0,.2);
   }
   .title {
-    font-size: large;
-    font-weight: bolder;
+    /* font-size: large;
+    font-weight: bolder; */
     margin: 0;
     padding: 0;
+
 }
 .subtitle {
     margin: 0;
     padding: 0;
-    font-size: large;
-    font-weight: bold;
+    /* font-size: large;
+    font-weight: bold; */
 }
 .ul {
     font-weight: 600;

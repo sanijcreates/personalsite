@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import styles from '@/styles/Intro.module.css'
 import profileImage from '../images/testimonial1.png'
-
+import react from '../images/icons8-react.gif'
+import { FcAdvance } from "react-icons/fc";
 export default function Intro() {
     return(
         <main className={styles.display}>
+            <div className={styles.mainContainer}>
             <section className={styles.sideIntro}>
                 <Image 
                     src={profileImage}
@@ -29,6 +31,15 @@ export default function Intro() {
         <p>I am especifically interested in the field of Software Development. One of my recent goals has been to get a SWE internship, so if you are looking for a SWE intern, hire me :)</p>
         <button onClick="window.location.href='https://w3docs.com';" className='button'>My Resume</button>
             </section>
+            </div>
+        <div className={styles.techStack}>
+            <Image 
+            className={styles.react}
+            alt="react"
+            src = {react}/>
+            {/* <img src={react}></img> */}
+            <FcAdvance className={styles.react} />
+        </div>
         </main>
     )
 }

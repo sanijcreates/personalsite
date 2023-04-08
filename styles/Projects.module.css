@@ -1,6 +1,6 @@
 .title {
-    font-size: var(--big-font-size);
-    border-bottom: 2px solid gray;
+    /* font-size: var(--big-font-size); */
+    border-bottom: 3px solid #dbdbdb;
 }
 
 .masterContainer {

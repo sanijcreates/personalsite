@@ -27,6 +27,16 @@
   --tiny-font-size: 0.625rem;
 }
 /*=============== BASE ===============*/
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+h2 {
+  font-size: var(--h3-font-size);
+}
+h3 {
+  font-size: var(--normal-font-size);
+}
 * {
   box-sizing: border-box;
 }

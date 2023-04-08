@@ -4,8 +4,8 @@ import styles from '@/styles/Home.module.css'
 import Header from './header'
 import Intro from './intro'
 import Projects from './projects'
-import Edu from './edu'
 import Education from './education'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
         <Intro />
         <Projects />
         <Education />
+        <Footer />
       </main>
     </>
   )

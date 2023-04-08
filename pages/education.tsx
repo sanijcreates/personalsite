@@ -3,13 +3,14 @@ import styles from '@/styles/Education.module.css'
 export default function Education() {
     return (
         <div>
-        <p className={styles.contentTitle}>Education</p>
+        <div  className={styles.upperdiv}>
+        <h1 className={styles.contentTitle}>Education</h1>
+        </div>
         <div className={styles.timeline}>
-            
             <div className={`${styles.container} ${styles.left}`}>
             <div className={styles.content}>
                         <h2 className={styles.title}>DePauw University '25</h2>
-                        <p className={styles.subtitle}>Bachelors in Computer Science</p>
+                        <h3 className={styles.subtitle}>Bachelors in Computer Science</h3>
                         <p className={styles.ul}>Honors and Awards</p>
                         <ul className={styles.list}>
                             <li><a href='https://depauw.meritpages.com/stories/Sanij-Shrestha-Named-to-DePauw-University-s-Fall-2022-Dean-s-List/102209832'>Dean's List, Fall 2022</a></li>
@@ -31,7 +32,7 @@ export default function Education() {
                 <div className={`${styles.container} ${styles.right}`}>
                     <div className={styles.content}>
                         <h2 className={styles.title}>Little Angels' College GCE Alevels</h2>
-                        <p className={styles.subtitle}>GCE A level</p>
+                        <h3 className={styles.subtitle}>GCE A level</h3>
                         <p className={styles.ul}>Honors and Awards</p>
                         <ul className={styles.list}>
                             <li><a href='https://depauw.meritpages.com/stories/Sanij-Shrestha-Named-to-DePauw-University-s-Fall-2022-Dean-s-List/102209832'>Dean's List, Fall 2022</a></li>

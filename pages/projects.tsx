@@ -7,14 +7,16 @@ export default function Projects() {
             <h1 className={styles.title}>Projects</h1>
             <div className={styles.cardContainer}>
                 <CardUI 
+                github = "https://github.com/sanijcreates/PICk-SOME"
                 title = "Imagezon"
-                details = "A project that I did to learn the basics of a e-commerce website"
-                tech = {["React", "Next.js", "AWS"]}
+                details = "React based e-commerce website that demonstrates the generic features of an e-commerce site"
+                tech = {["React.js", "JS", "CSS", "HTML"]}
                 />
                 <CardUI 
-                title = "Imagezon"
-                details = "A project that I did to learn the basics of a e-commerce website"
-                tech = {["React", "Next.js", "Typescript"]}
+                github="https://github.com/sanijcreates/Project-Wiki"
+                title = "Project Wiki"
+                details = "A project from the Harvard's CS50 course that implements the basics of django"
+                tech = {["Django", "Python", "CSS"]}
                 />
                 <div className = {styles.lastCard}>
                 <CardUI
