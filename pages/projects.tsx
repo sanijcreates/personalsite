@@ -1,5 +1,8 @@
 import styles from '@/styles/Projects.module.css'
 import CardUI from './components/projCard'
+import picksome from '../images/picksome.png'
+import speed from '../images/speedtyping.png'
+import binary from '../images/binary.jpg'
 
 export default function Projects() {
     return (
@@ -7,24 +10,35 @@ export default function Projects() {
             <h1 className={styles.title}>Projects</h1>
             <div className={styles.cardContainer}>
                 <CardUI 
+                src = {picksome}
                 github = "https://github.com/sanijcreates/PICk-SOME"
                 title = "Imagezon"
                 details = "React based e-commerce website that demonstrates the generic features of an e-commerce site"
-                tech = {["React.js", "JS", "CSS", "HTML"]}
+                tech = {["React.js", "React Redux", "CSS", "HTML"]}
                 />
                 <CardUI 
+                src = {speed}
                 github="https://github.com/sanijcreates/Project-Wiki"
                 title = "Project Wiki"
                 details = "A project from the Harvard's CS50 course that implements the basics of django"
                 tech = {["Django", "Python", "CSS"]}
                 />
-                <div className = {styles.lastCard}>
+                
                 <CardUI
-                title = "Imagezon"
-                details = "A project that I did to learn the basics of a e-commerce website"
-                tech = {["React", "Next.js", "CSS","HTML"]}        
+                src = {speed}
+                github = "https://github.com/sanijcreates/Speed-Typing-Game"
+                title = "Speed-Typing Game"
+                details = "Project provides feature to set the time using useRef, useState and useEffect"
+                tech = {["React.js","CSS","HTML", "JS"]}        
                 />
-                </div>
+                <CardUI 
+                src = {binary}
+                github ="https://github.com/sanijcreates/Binary-Search-Trees"
+                title = "Counting Words"
+                details = "Counts number of words in a file using Binary Search Tree and Bubble sort"
+                tech = {["Binary Search Tree", "C++", "Data Structures"]}
+                />
+                
             </div>
         </div>
     )

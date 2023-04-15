@@ -4,6 +4,7 @@
     height: auto;
     padding-bottom: 1.5rem;
     overflow: hidden;
+    margin: 20px; 
 } 
 .image {
     object-position: center;
@@ -19,19 +20,21 @@
 }
 .imageContainer button {
     display: hidden;
-    opacity: 1 !important;
 }
 .imageContainer:hover button {
     display: block;
     opacity: 1 !important;
 }
-.imageContainer:hover {     
-    opacity: 0.5;
-}
+.imageContainer:hover .image {
+  filter: blur(2px);
+}     
+    
+
 
 .projInfo {
     width: 400px;
 }
+
 .title {
     font-weight: bolder;
 }
@@ -42,6 +45,7 @@
 /* .projInfo span {
     margin-right: 1rem;
 } */
+
 .techs {
     display: flex;
     justify-content: space-around;
@@ -84,9 +88,6 @@
     border-color: #b5b5b5;
   }
   
-  .button50:focus:not(:active) {
-    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
-  }
    
 .button60 {
   align-items: center;
