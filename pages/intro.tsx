@@ -24,9 +24,9 @@ export default function Intro() {
             <span>Computer Science @ DePauw University</span>
             <ul className={styles.social}>
                 <li><a className={styles.icon} href='https://github.com/sanijcreates'><i className={`${styles.icon} uil uil-github`}></i></a></li>
-                <li><a className={styles.icon} href='to:saniz.sth123@gmail.com'><i className={`${styles.icon} uil uil-envelope`}></i></a></li>
+                <li><a className={styles.icon} href='mailto:saniz.sth123@gmail.com'><i className={`${styles.icon} uil uil-envelope`}></i></a></li>
                 <li><a className={styles.icon} href="https://www.linkedin.com/in/sanij-shrestha/"><i className={`${styles.icon} uil uil-linkedin`}></i></a></li>
-                <li><a className={styles.icon} href="https://www.linkedin.com/in/sanij-shrestha/"><i className={`${styles.icon} uil uil-instagram`}></i></a></li>
+                <li><a className={styles.icon} href="https://www.instagram.com/sanijshresth/"><i className={`${styles.icon} uil uil-instagram`}></i></a></li>
             </ul>
             </section>
             <section className={styles.mainIntro}>
@@ -35,7 +35,8 @@ export default function Intro() {
             
         <p className={styles.mainContent}>Hey there, I am a <strong>Computer Science</strong> major student in the <a href="">Department of Computer Science</a> at <strong><a href="">DePauw University</a></strong>. </p>
         <p>I am bit of a tech geek, who is also passionate about solving real-world problems through software. You can usually find me with my laptop buried in lines of code and surviving on LOTS of caffeine. So, if you need a computer science <span className={styles.nerd}>nerd</span> with a caffeine addiction, look no further :)</p>
-        <button onClick="window.location.href='https://w3docs.com';" className={styles.button60}>My Resume</button>
+        <p>Please look into my resume for a detailed information my work experience.</p>
+        <button className={styles.button60}>My Resume</button>
             </section>
             </div>
         <div className={styles.techStack}>

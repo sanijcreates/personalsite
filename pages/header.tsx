@@ -7,19 +7,16 @@ export default function Header() {
                 <a className={styles.logo}>SANIJ</a>
                 <ul className={styles.navlist}>
                     <li>
-                        <a>Home</a>
+                        <a href='#'>Home</a>
                     </li>
                     <li>
-                        <a>Projects</a>
+                        <a href = "#projects">Projects</a>
                     </li>
                     <li>
-                        <a>Experience</a>
+                        <a href = "#education">Education</a>
                     </li>
                     <li>
-                        <a>Education</a>
-                    </li>
-                    <li>
-                        <a>Contact</a>
+                        <a href = "#contact">Contact</a>
                     </li>
                 </ul>
             </nav>

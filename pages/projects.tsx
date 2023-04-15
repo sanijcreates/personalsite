@@ -7,7 +7,8 @@ import binary from '../images/binary.jpg'
 export default function Projects() {
     return (
         <div className={styles.masterContainer}>
-            <h1 className={styles.title}>Projects</h1>
+            <a id = "projects">
+            <h1 className={styles.title}>Projects</h1> </a>
             <div className={styles.cardContainer}>
                 <CardUI 
                 src = {picksome}
@@ -23,7 +24,6 @@ export default function Projects() {
                 details = "A project from the Harvard's CS50 course that implements the basics of django"
                 tech = {["Django", "Python", "CSS"]}
                 />
-                
                 <CardUI
                 src = {speed}
                 github = "https://github.com/sanijcreates/Speed-Typing-Game"
@@ -38,7 +38,6 @@ export default function Projects() {
                 details = "Counts number of words in a file using Binary Search Tree and Bubble sort"
                 tech = {["Binary Search Tree", "C++", "Data Structures"]}
                 />
-                
             </div>
         </div>
     )

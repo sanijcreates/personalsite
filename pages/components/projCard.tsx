@@ -8,7 +8,7 @@ const CardUI = (props: any) => {
     return (
         <div className={styles.mainContainer}>
                 <div className={styles.imageContainer}>
-                    {display? <button className={`${styles.button50}`}>Github</button>: null}
+                    {display? <a href = {props.github}><button className={`${styles.button50}`}>Github</button></a>: null}
                     <Image 
                     alt = "project display"
                     src={props.src}

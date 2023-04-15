@@ -20,6 +20,18 @@
     column-gap: 2rem;
     margin: 0;
 }
+.navlist li a {
+    color: black
+}
+.navlist li a:hover {
+    color: blue;
+    font-weight: bolder;
+}
+.navlist li a:active {
+    color: blue;
+    font-weight: bolder;
+}
+
 .logo {
     font-weight: 600;
 }
