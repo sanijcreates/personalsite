@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className={styles.footer}>
             <a id = "contact">
             <h2>SANIJ SHRESTHA</h2></a>
-            <p>Thank you for taking the time to explore my work and get to know me a little better. It's been a pleasure having you here, and I hope you found what you were looking for. If you have any questions, comments, or just want to say hello, feel free to drop me a message :)</p>
+            <p>Thank you for taking the time to explore my work and get to know me a little better. It&apos;s been a pleasure having you here, and I hope you found what you were looking for. If you have any questions, comments, or just want to say hello, feel free to drop me a message :)</p>
             <ul className={styles.social}>
                 <li><a className={styles.icon} href='https://github.com/sanijcreates'><i className={`${styles.icon} uil uil-github`}></i></a></li>
                 <li><a className={styles.icon} href='mailto:saniz.sth123@gmail.com'><i className={`${styles.icon} uil uil-envelope`}></i></a></li>

@@ -11,6 +11,7 @@ export default function Projects() {
             <h1 className={styles.title}>Projects</h1> </a>
             <div className={styles.cardContainer}>
                 <CardUI 
+                id = "1"
                 src = {picksome}
                 github = "https://github.com/sanijcreates/PICk-SOME"
                 title = "Imagezon"
@@ -18,6 +19,7 @@ export default function Projects() {
                 tech = {["React.js", "React Redux", "CSS", "HTML"]}
                 />
                 <CardUI 
+                id = "2"
                 src = {speed}
                 github="https://github.com/sanijcreates/Project-Wiki"
                 title = "Project Wiki"
@@ -25,6 +27,7 @@ export default function Projects() {
                 tech = {["Django", "Python", "CSS"]}
                 />
                 <CardUI
+                id = "3"
                 src = {speed}
                 github = "https://github.com/sanijcreates/Speed-Typing-Game"
                 title = "Speed-Typing Game"
@@ -32,6 +35,7 @@ export default function Projects() {
                 tech = {["React.js","CSS","HTML", "JS"]}        
                 />
                 <CardUI 
+                id = "4"
                 src = {binary}
                 github ="https://github.com/sanijcreates/Binary-Search-Trees"
                 title = "Counting Words"

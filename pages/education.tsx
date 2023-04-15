@@ -10,11 +10,11 @@ export default function Education() {
         <div className={styles.timeline}>
             <div className={`${styles.container} ${styles.left}`}>
             <div className={styles.content}>
-                        <h2 className={styles.title}>DePauw University '25</h2>
+                        <h2 className={styles.title}>DePauw University 2025</h2>
                         <h3 className={styles.subtitle}>Bachelors in Computer Science</h3>
                         <p className={styles.ul}>Honors and Awards</p>
                         <ul className={styles.list}>
-                            <li><a href='https://depauw.meritpages.com/stories/Sanij-Shrestha-Named-to-DePauw-University-s-Fall-2022-Dean-s-List/102209832'>Dean's List, Fall 2022</a></li>
+                            <li><a href='https://depauw.meritpages.com/stories/Sanij-Shrestha-Named-to-DePauw-University-s-Fall-2022-Dean-s-List/102209832'>Dean&apos;s List, Fall 2022</a></li>
                            <li> <a href=''>Recipent of Christena Biggs-Kathleen Steele First-Year Seminar Most Improved Writer Award</a></li>
                             <li>Receipent of $44,000/yr Merit Scholarship</li>  
                         </ul>
@@ -32,7 +32,7 @@ export default function Education() {
             <div>
                 <div className={`${styles.container} ${styles.right}`}>
                     <div className={styles.content}>
-                        <h2 className={styles.title}>Little Angels' College GCE Alevels</h2>
+                        <h2 className={styles.title}>Little Angels&apos; College GCE Alevels</h2>
                         <h3 className={styles.subtitle}>GCE A level</h3>
                         {/* <p className={styles.ul}>Honors and Awards</p>
                         <ul className={styles.list}>

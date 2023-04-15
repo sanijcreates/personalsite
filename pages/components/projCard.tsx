@@ -22,7 +22,7 @@ const CardUI = (props: any) => {
                     <p>{props.details}</p>
                     <div className={styles.techs}>
                     {props.tech.map((el:any) => (
-                        <span className={styles.button60}>{el}</span>
+                        <span className={styles.button60} key = {props.el}>{el}</span>
                     ))}
                     </div>
                 </div>
