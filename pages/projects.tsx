@@ -3,6 +3,7 @@ import CardUI from './projCard'
 import picksome from '../images/picksome.png'
 import speed from '../public/speedtyping.png'
 import binary from '../public/binary.jpg'
+import wiki from '../images/wiki.png'
 
 export default function Projects() {
     return (
@@ -20,10 +21,10 @@ export default function Projects() {
                 />
                 <CardUI 
                 id = "2"
-                src = {speed}
+                src = {wiki}
                 github="https://github.com/sanijcreates/Project-Wiki"
                 title = "Project Wiki"
-                details = "A project from the Harvard's CS50 course that implements the basics of django"
+                details = "A project from the Harvard's CS50 course that implements the foundations of django"
                 tech = {["Django", "Python", "CSS"]}
                 />
                 <CardUI

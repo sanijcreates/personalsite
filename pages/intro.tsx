@@ -8,6 +8,10 @@ import react from '../images/icons8-react.gif'
 // const myLoader = () => {
 //     return `https://example.com/${profileImage}?w=${300}&q=${300 || 75}`
 //   }
+
+function onResume() {
+    return alert("Email me at sanijshrestha_2026@depauw.edu for my resume!")
+}
 export default function Intro() {
     return(
         <main className={styles.display}>
@@ -39,10 +43,10 @@ export default function Intro() {
                 <h1 className={styles.name}>SANIJ SHRESTHA</h1>
             <div className={styles.nameContainer}></div>
             
-        <p className={styles.mainContent}>Hey there, I am a <strong>Computer Science</strong> major student in the <a href="">Department of Computer Science</a> at <strong><a href="">DePauw University</a></strong>. </p>
+        <p className={styles.mainContent}>Hey there, I am a <strong>Computer Science</strong> major student in the <a href="https://www.depauw.edu/academics/college-of-liberal-arts/computer-science/">Department of Computer Science</a> at <strong><a href="https://www.depauw.edu/">DePauw University</a></strong>. </p>
         <p>I am bit of a tech geek, who is also passionate about solving real-world problems through software. You can usually find me with my laptop buried in lines of code and surviving on LOTS of caffeine. So, if you need a computer science <span className={styles.nerd}>nerd</span> with a caffeine addiction, look no further :)</p>
         <p>Please look into my resume for a detailed information my work experience.</p>
-        <button className={styles.button60}>My Resume</button>
+        <button className={styles.button60} onSubmit={onResume}>My Resume</button>
             </section>
             </div>
         <div className={styles.techStack}>
