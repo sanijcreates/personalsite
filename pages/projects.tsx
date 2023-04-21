@@ -12,7 +12,7 @@ export default function Projects() {
             <div className={styles.cardContainer}>
                 <CardUI 
                 id = "1"
-                src = {picksome}
+                // src = {picksome}
                 github = "https://github.com/sanijcreates/PICk-SOME"
                 title = "Imagezon"
                 details = "React based e-commerce website that demonstrates the generic features of an e-commerce site"
@@ -20,7 +20,7 @@ export default function Projects() {
                 />
                 <CardUI 
                 id = "2"
-                src = {speed}
+                // src = {speed}
                 github="https://github.com/sanijcreates/Project-Wiki"
                 title = "Project Wiki"
                 details = "A project from the Harvard's CS50 course that implements the basics of django"
@@ -28,7 +28,7 @@ export default function Projects() {
                 />
                 <CardUI
                 id = "3"
-                src = {speed}
+                // src = {speed}
                 github = "https://github.com/sanijcreates/Speed-Typing-Game"
                 title = "Speed-Typing Game"
                 details = "Project provides feature to set the time using useRef, useState and useEffect"
@@ -36,7 +36,7 @@ export default function Projects() {
                 />
                 <CardUI 
                 id = "4"
-                src = {binary}
+                // src = {binary}
                 github ="https://github.com/sanijcreates/Binary-Search-Trees"
                 title = "Counting Words"
                 details = "Counts number of words in a file using Binary Search Tree and Bubble sort"

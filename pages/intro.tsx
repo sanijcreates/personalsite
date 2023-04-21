@@ -11,10 +11,11 @@ export default function Intro() {
             <section className={styles.sideIntro}>
                 <div className={styles.profileParent}>
                 <Image 
-                    src={profileImage}
+                    src=""
                     alt="Your image"
                     layout="responsive"
                     objectFit="cover"
+                    priority
                     width={300}
                     height={300}
                     className={styles.image}
