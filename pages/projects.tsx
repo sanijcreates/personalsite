@@ -1,5 +1,5 @@
 import styles from '@/styles/Projects.module.css'
-import CardUI from './components/projCard'
+import CardUI from './projCard'
 import picksome from '../images/picksome.png'
 import speed from '../public/speedtyping.png'
 import binary from '../public/binary.jpg'
