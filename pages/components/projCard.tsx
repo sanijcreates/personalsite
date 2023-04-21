@@ -1,5 +1,4 @@
 import Image from 'next/image';
-// import profileImage from '../../images/testimonial1.png';
 import styles from '@/styles/Card.module.css';
 import { useState } from 'react';
 
@@ -21,7 +20,7 @@ const CardUI = (props: any) => {
                     <p className={styles.title}>{props.title}</p>
                     <p>{props.details}</p>
                     <div className={styles.techs}>
-                    {props.tech.map((el:any, index:any) => (
+                    {props.tech && props.tech.map((el:any, index:any) => (
                         <span className={styles.button60} key = {index}>{el}</span>
                     ))}
                     </div>
