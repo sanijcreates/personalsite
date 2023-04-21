@@ -4,6 +4,10 @@ import profileImage from '../images/IMG_2888.jpg'
 import react from '../images/icons8-react.gif'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faReact } from '@fortawesome/free-solid-svg-icons'
+
+// const myLoader = () => {
+//     return `https://example.com/${profileImage}?w=${300}&q=${300 || 75}`
+//   }
 export default function Intro() {
     return(
         <main className={styles.display}>
@@ -11,7 +15,8 @@ export default function Intro() {
             <section className={styles.sideIntro}>
                 <div className={styles.profileParent}>
                 <Image 
-                    src=""
+                    // loader={myLoader}
+                    src={profileImage}
                     alt="Your image"
                     layout="responsive"
                     objectFit="cover"
