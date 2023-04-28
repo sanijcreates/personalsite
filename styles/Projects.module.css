@@ -21,3 +21,13 @@
 .lastCard {
     margin-top: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        flex-direction: column; 
+        flex-wrap: nowrap;
+    }
+    .masterContainer {
+        width: 100%
+    }
+}

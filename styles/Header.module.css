@@ -35,4 +35,12 @@
 .logo {
     font-weight: 600;
 }
-
+@media screen and (max-width: 768px) {
+    .header {
+        top: initial;
+        bottom: 0;
+    }
+    .nav {
+        width: 100%;
+    }
+}

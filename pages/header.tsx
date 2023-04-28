@@ -19,6 +19,8 @@ export default function Header() {
                         <a href = "#contact">Contact</a>
                     </li>
                 </ul>
+                
+ 
             </nav>
         </header>
     )
