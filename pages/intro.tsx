@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from '@/styles/Intro.module.css'
 import profileImage from '../images/profile.jpg'
 import react from '../images/icons8-react.gif'
+import Link from 'next/link'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faReact } from '@fortawesome/free-solid-svg-icons'
 
@@ -45,8 +46,8 @@ export default function Intro() {
         <div className={styles.nameContainer}></div>
         <p className={styles.mainContent}>Hey there, I am a <strong>Computer Science</strong> major student in the <a href="https://www.depauw.edu/academics/college-of-liberal-arts/computer-science/">Department of Computer Science</a> at <strong><a href="https://www.depauw.edu/">DePauw University</a></strong>. </p>
         <p>I am bit of a tech geek, who is also passionate about solving real-world problems through software. You can usually find me with my laptop buried in lines of code and surviving on LOTS of caffeine. So, if you need a computer science <span className={styles.nerd}>nerd</span> with a caffeine addiction, look no further :)</p>
-        <p>Please contact email me for a detailed information about my work experiences.</p>
-        <a href = "/#contact"><button className={styles.button60}>Contact me</button></a>
+        <p>Please contact me for a detailed information about my work experiences.</p>
+        <Link href = "/#contact"><button className={styles.button60}>Contact me</button></Link>
             </section>
             </div>
         <div className={styles.techStack}>
