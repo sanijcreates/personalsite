@@ -8,10 +8,19 @@ export default function Education() {
         <h1 className={styles.contentTitle}>Education</h1></a>
         </div>
         <div className={styles.timeline}>
+        <div>
+                <div className={`${styles.container} ${styles.right}`}>
+                    <div className={styles.content}>
+                        <h2 className={styles.title}>Gettysburg College</h2>
+                        <h3 className={styles.subtitle}>BS Computer Science(2023 - 2025)</h3>
+                        
+                    </div>
+                </div>
+            </div>
             <div className={`${styles.container} ${styles.left}`}>
             <div className={styles.content}>
-                        <h2 className={styles.title}>DePauw University 2025</h2>
-                        <h3 className={styles.subtitle}>Bachelors in Computer Science</h3>
+                        <h2 className={styles.title}>DePauw University</h2>
+                        <h3 className={styles.subtitle}>Bachelors in Computer Science(2022 - 2023)</h3>
                         <p className={styles.ul}>Honors and Awards</p>
                         <ul className={styles.list}>
                             <li><a href='https://depauw.meritpages.com/stories/Sanij-Shrestha-Named-to-DePauw-University-s-Fall-2022-Dean-s-List/102209832'>Dean&apos;s List, Fall 2022</a></li>
