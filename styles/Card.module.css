@@ -36,7 +36,9 @@
 }
 
 .title {
+  text-align: center;
     font-weight: bolder;
+    font-size: x-large;
 }
 .projInfo p {
     margin-left: 1rem;
@@ -132,6 +134,36 @@
 .button60:focus:not(:active) {
   box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
 }
+
+.appContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+   /* Add your desired space value here */
+} 
+.gifInfo {
+  width: 600px
+}
+.gifContainer {
+  
+}
+.img {
+  height: 50%;
+  width: 50%;
+  border-radius: 20px;
+}
+.desc {
+  padding-bottom: 20px;
+}
+.corousel {
+  width: 400px;
+}
+.subtitle {
+  text-align: center;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .mainContainer {

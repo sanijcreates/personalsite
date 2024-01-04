@@ -5,6 +5,7 @@ import Intro from './intro'
 import Projects from './projects'
 import Education from './education'
 import Footer from './footer'
+import MyApps from './myApps'
 
 export default function Home() {
   return (
@@ -19,8 +20,9 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <Intro />
-        <Projects />
-        <Education />
+        {/* <Projects /> */}
+        <MyApps />
+        {/* <Education /> */}
         <Footer />
       </main>
     </>
