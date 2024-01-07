@@ -8,7 +8,7 @@ import wiki from '../images/wiki.png'
 export default function Projects() {
     return (
         <div className={styles.masterContainer}>
-            <a id = "projects">
+            <a >
             <h1 className={styles.title}>Projects</h1> </a>
             <div className={styles.cardContainer}>
 

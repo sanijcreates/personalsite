@@ -4,7 +4,7 @@ import AppUI from './appCard'
 export default function MyApps() {
     return (
         <div>
-            <a id = "myApps">
+            <a id = "projects">
                 <h1 className={styles.subtitle}>Projects</h1>
             </a>
             <div>

@@ -177,4 +177,7 @@
   .mainContainer {
     
   }
+  .appContainer {
+    flex-direction: column;
+  }
 }
