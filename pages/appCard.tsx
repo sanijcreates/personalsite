@@ -1,7 +1,6 @@
 import {useState} from 'react'
 import styles from '@/styles/Card.module.css'
-import Image from 'next/image'
-import Carousel from 'react-bootstrap/Carousel';
+import YoutubeEmbed from './components/youtubeEmbed';
 
 const AppUI = (props: any) => {
     const [display, setDisplay] = useState(true)
@@ -30,6 +29,12 @@ const AppUI = (props: any) => {
                             <span className={styles.button60} key = {index}>{el}</span>
                         ))}
                     </div>
+                </div>
+                
+                <div className={props.yt === "true" ? styles.gif1 : styles.gif2}>
+                   {/* <YoutubeEmbed embedId="rokGy0huYEA" /> */}
+                    {props.yt === "false"? <img className={styles.img} src={props.src} /> : <YoutubeEmbed embedId={props.embedId}/>}
+                                        
                 </div>
             </div>
         </div>

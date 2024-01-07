@@ -6,6 +6,7 @@ import Projects from './projects'
 import Education from './education'
 import Footer from './footer'
 import MyApps from './myApps'
+import YoutubeEmbed from './components/youtubeEmbed'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <Intro />
+        
         {/* <Projects /> */}
         <MyApps />
         {/* <Education /> */}
