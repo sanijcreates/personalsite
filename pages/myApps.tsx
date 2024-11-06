@@ -1,6 +1,7 @@
 import styles from '@/styles/Card.module.css'
 import AppUI from './appCard'
 
+
 export default function MyApps() {
     return (
         <div>
@@ -26,6 +27,15 @@ export default function MyApps() {
                 title = "Dermafyr"
                 details = "<ui><li style='padding-bottom:  15px'>A skincare analysis system that is trained on <strong>19k datasets</strong> and analyzes facial skin condition using AI with 97% accuracy and operates both as in-store kiosks and web platform.</li><li style='padding-bottom:  15px'>Secured <strong>2nd place in Best Overall Project category</strong>, competing with over 40+ projects.</li><li>Led the development of backend utilizing FastAPI, integrated Llama model in Raspberry Pi 5 for <strong>offline analysis and suggestion system.</strong></li></ui>"
                 tech = {["React.js", "Fast API", "Tensorflow", "Raspberry Pi 5", "AI", "MYSQL"]}
+                />
+                <AppUI 
+                id = "7"
+                src = "https://imgur.com/e0J1bpl.gif"
+                yt = "false"
+                github = "https://www.uniappguide.com"
+                title = "University Application Guide"
+                details = "<ui><li style='padding-bottom:  15px'>Founded a website that offers a platform to share resources about college application specifically focused for international students</li><li style='padding-bottom:  15px'>Led the full-stack development using React.js, Spring Boot and MySQL attracting over <strong>30k+ unique viewers, and 50k+ page views</strong> within the first year</li><li>Managed and guided a team of <strong>6 content creators, publishing over 20 articles.</strong></li></ui>"
+                tech = {["Leadership", "Web Development", "React.js", "SpringBoot", "MySQL", "SEO"]}
                 />
                 <AppUI 
                 id = "1"
