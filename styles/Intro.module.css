@@ -97,6 +97,7 @@
 .image {
     object-position: bottom;
     object-fit: cover;
+    transform: scale(1.1)
 }
 .nameContainer {
     border-bottom: 2px solid black;

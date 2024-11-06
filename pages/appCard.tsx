@@ -33,7 +33,7 @@ const AppUI = (props: any) => {
                 
                 <div className={props.yt === "true" ? styles.gif1 : styles.gif2}>
                    {/* <YoutubeEmbed embedId="rokGy0huYEA" /> */}
-                    {props.yt === "false"? <img className={styles.img} src={props.src} /> : <YoutubeEmbed embedId={props.embedId}/>}
+                    {props.yt === "false"? <a href={props.github}><img className={styles.img} src={props.src} /></a> : <YoutubeEmbed embedId={props.embedId}/>}
                                         
                 </div>
             </div>

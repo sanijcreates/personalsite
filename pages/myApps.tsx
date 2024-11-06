@@ -8,6 +8,25 @@ export default function MyApps() {
                 <h1 className={styles.subtitle}>Projects</h1>
             </a>
             <div>
+            <AppUI 
+                id = "5"
+                src = "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/075/862/datas/gallery.jpg"
+                yt = "false"
+                github = "https://devpost.com/software/calendar-weather-app"
+                title = "Climately"
+                details = "<ui><li style='padding-bottom:  15px'>Developed an intelligent chrome extension integrating <strong>real-time weather data</strong> to optimize scheduling, providing automated activity suggestions based on weather conditions and enhancing users' event planning capabilities through predictive weather alerts</li><li style='padding-bottom:  15px'>Engineered a robust Java Spring Boot backend managing <strong>multiple API integrations including Google Calendar, Weather API, and OpenAI for real-time event synchronization</strong></li><li style='padding-bottom:  15px'>Architected a responsive frontend using React.js, implementing Google OAuth authentication to seamlessly integrate user calendar data and preferences</li></ui>"
+                tech = {["Spring boot", "OpenAI", "Chrome Extension", "Javascript", "API"]}
+                />
+            <AppUI 
+                id = "5"
+                src = ""
+                yt = "true"
+                embedId = "3ZTVrNvTw7I"
+                github = "https://devpost.com/software/dermafyr"
+                title = "Dermafyr"
+                details = "<ui><li style='padding-bottom:  15px'>A skincare analysis system that is trained on <strong>19k datasets</strong> and analyzes facial skin condition using AI with 97% accuracy and operates both as in-store kiosks and web platform.</li><li style='padding-bottom:  15px'>Secured <strong>2nd place in Best Overall Project category</strong>, competing with over 40+ projects.</li><li>Led the development of backend utilizing FastAPI, integrated Llama model in Raspberry Pi 5 for <strong>offline analysis and suggestion system.</strong></li></ui>"
+                tech = {["React.js", "Fast API", "Tensorflow", "Raspberry Pi 5", "AI", "MYSQL"]}
+                />
                 <AppUI 
                 id = "1"
                 src = "https://imgur.com/Cw8noE2.gif"
@@ -45,15 +64,6 @@ export default function MyApps() {
                 title = "Tenzies"
                 details = "<ui><li style='padding-bottom:  15px'>Developed a <strong>Front End application using React.js</strong>, leveraging its powerful features such as hooks (useState, useEffect) for state management and side effects handling.</li><li style='padding-bottom:  15px'>Implemented <strong>local storage functionality</strong> to persist data across sessions, enhancing user experience by saving and retrieving user's time data.</li><li>Utilized JavaScript's Date object and its methods to handle and manipulate time-related data, providing <strong>real-time feedback to the user.</strong></li></ui>"
                 tech = {["React.js", "React Hooks", "CSS"]}
-                />
-                <AppUI 
-                id = "3"
-                src = "https://imgur.com/Gd6JIxT.gif"
-                yt = "false"
-                github = "https://github.com/sanijcreates/Speed-Typing-Game"
-                title = "Speed Typing Practice"
-                details = "<ui><li style='padding-bottom:  15px'>Implemented a <strong>custom React hook for managing the application's core logic</strong>, showcasing the ability to create reusable code and manage complex state logic.</li><li style='padding-bottom:  15px'>The application features a dynamic user interface that calculates and displays words per minute (WPM) and allows users to set their preferred practice duration</li></ui>"
-                tech = {["React.js", "React Hooks", "CSS", "JavaScript"]}
                 />
             </div>
         </div>
